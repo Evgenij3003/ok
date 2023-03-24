@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>OK. Оплата</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/style.min.css"> -->
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+
+    <div class="wrapper _page-payment">
+
+
+        <!-- Header -->
+        <header class="header">
+            <div class="header__container">
+                <div class="header__body">
+                    <div class="header__main main-header">
+
+                        <!-- Header. Burger -->
+                        <div class="main-header__icon">
+                            <img src="img/svg-icons/burger.svg" alt="иконка-бургер">
+                            <img src="img/svg-icons/close-menu.svg" alt="иконка закрытия меню">
+                        </div>
+
+                        <!-- Header. Logo -->
+                        <a href="index.html" title="логотип" class="main-header__logo logo">
+                            <div class="logo__top">
+                                <div class="logo__name">ok</div>
+                                <img class="logo__image" src="img/logo.svg" alt="логотип">
+                            </div>
+                            <div class="logo__text">ворота и заборы</div>
+                        </a>
+
+                        <!-- Header. Phones -->
+                        <div class="main-header__phones phones-header">
+                            <button class="phones-header__button" title="телефон">
+                                <img src="img/svg-icons/phone.svg" alt="иконка телефон">
+                            </button>
+                            <div class="phones-header__body">
+                                <div class="phones-header__item">
+                                    <a href="tel:88005553535" class="phones-header__link">8 800 555-35-35</a>
+                                    <div class="phones-header__text">
+                                        <p>бесплатно по РФ</p>
+                                    </div>
+                                </div>
+                                <div class="phones-header__item">
+                                    <a href="tel:84951564755" class="phones-header__link">8 495 156-47-55</a>
+                                    <div class="phones-header__text">
+                                        <p>телефон в Москве</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Header. Contacts -->
+                        <div data-da=".menu-header,61.99875,1" class="main-header__contacts contacts-items">
+                            <div class="contacts-items__item">
+                                <div class="contacts-items__label">Москва, Генерала Белова 16</div>
+                                <div class="contacts-items__text">
+                                    <p>с 8:00 до 20:00, без выходных</p>
+                                </div>
+                            </div>
+                            <div class="contacts-items__item">
+                                <a href="tel:88005553535" class="contacts-items__link">8 800 555-35-35</a>
+                                <div class="contacts-items__text">
+                                    <p>бесплатно по РФ</p>
+                                </div>
+                            </div>
+                            <div class="contacts-items__item">
+                                <a href="tel:84951564755" class="contacts-items__link">8 495 156-47-55</a>
+                                <div class="contacts-items__text">
+                                    <p>телефон в Москве</p>
+                                </div>
+                            </div>
+                            <div class="contacts-items__item">
+                                <a href="mailto:info@ok-vorota.ru" class="contacts-items__link">info@ok-vorota.ru</a>
+                                <div class="contacts-items__text">
+                                    <p>email для связи</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Header. Social -->
+                        <div data-da=".menu-header,61.99875,last" class="main-header__social social">
+                            <ul class="social__list">
+                                <li class="social__item telegram">
+                                    <a href="#" title="телеграм">
+                                        <img src="img/svg-icons/telegram.svg" alt="иконка телеграм">
+                                    </a>
+                                </li>
+                                <li class="social__item whatsapp">
+                                    <a href="#" title="whatsapp">
+                                        <img src="img/svg-icons/whatsapp.svg" alt="иконка whatsapp">
+                                    </a>
+                                </li>
+                                <li class="social__item vkontakte">
+                                    <a href="#" title="вконтакте">
+                                        <img src="img/svg-icons/vkontakte.svg" alt="иконка вконтакте">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                    <!-- Header. Bottom -->
+                    <div class="header__bottom bottom-header">
+
+                        <!-- Header. Menu -->
+                        <nav class="bottom-header__menu menu-header">
+                            <ul data-spollers="61.99875,max" class="menu-header__list">
+                                <li class="menu-header__item">
+                                    <button data-parent-submenu="1" class="menu-header__link">Заборы</button>
+                                </li>
+                                <li class="menu-header__item">
+                                    <button data-parent-submenu="2" class="menu-header__link">Откатные ворота</button>
+                                </li>
+                                <li class="menu-header__item">
+                                    <a href="#" class="menu-header__link">Услуги</a>
+                                </li>
+                                <li class="menu-header__item">
+                                    <a href="#" class="menu-header__link">Наши работы</a>
+                                </li>
+                                <li class="menu-header__item">
+                                    <a href="#" class="menu-header__link">Цены</a>
+                                </li>
+                                <li class="menu-header__item">
+                                    <a href="#" class="menu-header__link">О компании</a>
+                                </li>
+                                <li class="menu-header__item">
+                                    <a href="#" class="menu-header__link">Контакты</a>
+                                </li>
+                                <!-- Header. Search -->
+                                <li class="menu-header__item">
+                                    <button type="button" data-popup="#search-popup" class="search-button">Поиск</button>
+                                </li>
+                            </ul>
+                        </nav>
+
+                        <!-- Header. Cities -->
+                        <div class="bottom-header__cities cities-search">
+                            <button data-popup="#search-cities-popup" class="cities-search__button">
+                                <img src="img/svg-icons/marker.svg" title="маркер" alt="иконка-маркер">
+                                <span>Москва</span>
+                            </button>
+                        </div>
+
+                        <!-- Header. Catalog -->
+                        <div class="bottom-header__catalog catalog-menu">
+                            <div data-submenu="1" class="catalog-menu__submenu submenu">
+                                <div class="submenu__body">
+                                    <div class="submenu__title">Каталог заборов</div>
+                                    <ul class="submenu__list">
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">Забор из профлиста</a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">Забор из евроштакетника</a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">Забор из сетки рабицы</a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">Забор из профнастила</a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">Заборы 3D</a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">Заборы из профильной трубы</a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">Алюминиевые заборы</a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">Заборы жалюзи</a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">Заборы из металлического прутка</a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">Заборы из перфорированного листа</a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">Заборы из сварной 3D сетки</a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">Оцинкованные заборы</a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">Реечные металлические заборы</a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">Деревянные заборы</a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">Заборы из пластика</a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">Рулонные заборы</a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">Из профильной трубы</a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">Каркас</a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">Кованые</a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">На кирпичных столбах</a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">На ленточном фундаменте</a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">Решетчатые</a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">Профнастил</a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">На винтовых сваях</a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">Для дачи</a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">С калиткой</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div data-submenu="2" class="catalog-menu__submenu submenu">
+                                <div class="submenu__body">
+                                    <div class="submenu__title">Каталог откатных ворот</div>
+                                    <ul class="submenu__list">
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">Забор из профлиста</a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">Забор из евроштакетника</a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">Забор из сетки рабицы</a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">Забор из профнастила</a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">Заборы 3D</a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">Заборы из профильной трубы</a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">Алюминиевые заборы</a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">Заборы жалюзи</a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">Заборы из металлического прутка</a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">Заборы из перфорированного листа</a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">Заборы из сварной 3D сетки</a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">Оцинкованные заборы</a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">Реечные металлические заборы</a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">Деревянные заборы</a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">Заборы из пластика</a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">Рулонные заборы</a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">Из профильной трубы</a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">Каркас</a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">Кованые</a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">На кирпичных столбах</a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">На ленточном фундаменте</a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">Решетчатые</a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">Профнастил</a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">На винтовых сваях</a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">Для дачи</a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">С калиткой</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+
+
+        <!-- Content -->
+        <main class="content">
+
+
+            <!-- Breadcrumbs -->
+            <div class="breadcrumbs__container">
+                <nav class="breadcrumbs__nav breadcrumbs">
+                    <ul class="breadcrumbs__list">
+                        <li class="breadcrumbs__item">
+                            <a href="#" class="breadcrumbs__link">Главная</a>
+                            <span class="breadcrumbs__arrow">/</span>
+                        </li>
+                        <li class="breadcrumbs__item">
+                            <span class="breadcrumbs__current">Оплата</span>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+
+            <!-- Payment -->
+            <div class="payment">
+                <div class="payment__container">
+                    <div class="payment__body">
+                        <div class="payment__title _title _title-page">
+                            <h1>Оплата</h1>
+                        </div>
+                        <div class="payment__text">
+                            <p>Также обращаем Ваше внимание на то, что в случае обнаружения недостатка в товаре, Продавец (или уполномоченная организация) имеет право запросить товар у Покупателя для подтверждения или опровержения выявленного недостатка на срок до 20 дней (согласно пункту 1 статьи 21 и пункту 5 статьи 18 «Замена товара ненадлежащего качества» закона РФ «О защите прав потребителей»)Так же менеджер магазина может произвести обмен/возврат по своему усмотрению.</p>
+                            <p>Также обращаем Ваше внимание на то, что в случае обнаружения недостатка в товаре, Продавец (или уполномоченная организация) имеет право запросить товар у Покупателя для подтверждения или опровержения выявленного недостатка на срок до 20 дней (согласно пункту 1 статьи 21 и пункту 5 статьи 18 «Замена товара ненадлежащего качества» закона РФ «О защите прав потребителей»)Так же менеджер магазина может произвести обмен/возврат по своему усмотрению.</p>
+                        </div>
+                        <div class="payment__columns">
+                            <div class="payment__column column-payment">
+                                <div class="column-payment__body">
+                                    <div class="column-payment__title">Наличный расчёт</div>
+                                    <div class="column-payment__text">
+                                        <p>Вы можете оплатить свой заказ по безналичному расчету. Для этого попросите менеджера выставить вам счет на оплату.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="payment__column column-payment">
+                                <div class="column-payment__body">
+                                    <div class="column-payment__title">Безналичный расчёт</div>
+                                    <div class="column-payment__text">
+                                        <p>Также вы можете оплатить свой заказ по безналичному расчету. Для этого попросите менеджера выставить вам счет на оплату.</p>
+                                        <b>В этом случае получение заказа будет возможно после поступления денег на наш расчетный счет.</b>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="payment__column column-payment">
+                                <div class="column-payment__body">
+                                    <div class="column-payment__title">Банковская карта</div>
+                                    <p class="column-payment__text">Вы можете оплатить заказ банковской картой во время доставки или в офисе через приложение клиент-банк.</p>
+                                    <ul class="column-payment__list">
+                                        <li>
+                                            <img src="img/svg-icons/mastercard.svg" alt="система оплаты mastercard">
+                                        </li>
+                                        <li>
+                                            <img src="img/svg-icons/mir.svg" alt="система оплаты мир">
+                                        </li>
+                                        <li>
+                                            <img src="img/svg-icons/visa.svg" alt="система оплаты visa">
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Payment Question -->
+            <div class="payment-question">
+                <div class="payment-question__container">
+                    <div class="payment-question__title _title">
+                        <h2>По вопросам оплаты</h2>
+                    </div>
+                    <div class="payment-question__contacts">
+                        <div class="payment-question__contact">
+                            <div class="payment-question__label">Бесплатно по России</div>
+                            <a href="tel:88005553535" class="payment-question__link">8 800 555-35-35</a>
+                        </div>
+                        <div class="payment-question__contact">
+                            <div class="payment-question__label">Бухгалтерия</div>
+                            <a href="mailto:info@ok-vorota.ru" class="payment-question__link">info@ok-vorota.ru</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+
+            <!-- Application -->
+            <div class="application">
+                <div class="application__container">
+                    <div class="application__body">
+                        <div class="application__title _title">
+                            <h2>Остались вопросы?</h2>
+                        </div>
+                        <div class="application__text">
+                            <p>Оставьте ваши данные и мы свяжемся с вами. 
+                                <span>Мы не занимаемся рассылкой рекламный сообщений, а также не передаем контактные данные третьим лицам</span> 
+                            </p>
+                        </div>
+                        <div class="application__action action-application">
+                            <form method="post" action="#" class="action-application__form _form">
+                                <div class="action-application__input _block-input">
+                                    <label class="action-application__label _label-input">Номер телефона</label>
+                                    <input autocomplete="off" type="text" name="form-tel" placeholder="+7 911 609-73-92" data-required class="_input _tel">
+                                    <span class="error">Некорректный номер</span>
+                                </div>
+                                <button type="submit" data-popup="#thanks-popup" class="action-application__item _button">Заказать звонок</button>
+                            </form>
+                            <div class="action-application__text">
+                                <p>Нажимая на кнопку, вы соглашаетесь на обработку 
+                                    <a href="#">персональных данных</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="application__image">
+                            <img src="img/application/image.png" title="мастер" alt="мастер">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer__container">
+                <div class="footer__body">
+
+                    <!-- Footer. Main -->
+                    <div class="footer__main main-footer">
+                        <a href="index.html" title="логотип" class="main-footer__logo logo">
+                            <div class="logo__top">
+                                <div class="logo__name">ok</div>
+                                <img class="logo__image" src="img/logo-white.svg" alt="логотип">
+                            </div>
+                            <div class="logo__text">ворота и заборы</div>
+                        </a>
+                        <div class="main-header__contacts contacts-footer">
+                            <div class="contacts-footer__item">
+                                <div class="contacts-footer__label">Москва, Генерала Белова 16</div>
+                                <div class="contacts-footer__text">
+                                    <p>с 8:00 до 20:00, без выходных</p>
+                                </div>
+                            </div>
+                            <div class="contacts-footer__item">
+                                <a href="tel:88005553535" class="contacts-footer__link">8 800 555-35-35</a>
+                                <div class="contacts-footer__text">
+                                    <p>бесплатно по РФ</p>
+                                </div>
+                            </div>
+                            <div class="contacts-footer__item">
+                                <a href="tel:84951564755" class="contacts-footer__link">8 495 156-47-55</a>
+                                <div class="contacts-footer__text">
+                                    <p>телефон в Москве</p>
+                                </div>
+                            </div>
+                            <div class="contacts-footer__item">
+                                <a href="mailto:info@ok-vorota.ru" class="contacts-footer__link">info@ok-vorota.ru</a>
+                                <div class="contacts-footer__text">
+                                    <p>email для связи</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main-header__social social-footer">
+                            <ul class="social-footer__list">
+                                <li title="телеграм" class="social-footer__item telegram">
+                                    <a href="#">
+                                        <img src="img/svg-icons/telegram-white.svg" alt="иконка телеграм">
+                                    </a>
+                                </li>
+                                <li title="whatsapp" class="social-footer__item whatsapp">
+                                    <a href="#">
+                                        <img src="img/svg-icons/whatsapp-white.svg" alt="иконка whatsapp">
+                                    </a>
+                                </li>
+                                <li title="вконтакте" class="social-footer__item vkontakte">
+                                    <a href="#">
+                                        <img src="img/svg-icons/vkontakte-white.svg" alt="иконка вконтакте">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Footer. Menu -->
+                    <nav class="footer__menu menu-footer">
+                        <ul class="menu-footer__list">
+                            <li class="menu-footer__item">
+                                <a href="#" class="menu-footer__link">Заборы</a>
+                            </li>
+                            <li class="menu-footer__item">
+                                <a href="#" class="menu-footer__link">Откатные ворота</a>
+                            </li>
+                            <li class="menu-footer__item">
+                                <a href="#" class="menu-footer__link">Услуги</a>
+                            </li>
+                            <li class="menu-footer__item">
+                                <a href="#" class="menu-footer__link">Наши работы</a>
+                            </li>
+                            <li class="menu-footer__item">
+                                <a href="#" class="menu-footer__link">Цены</a>
+                            </li>
+                            <li class="menu-footer__item">
+                                <a href="#" class="menu-footer__link">О компании</a>
+                            </li>
+                            <li class="menu-footer__item">
+                                <a href="#" class="menu-footer__link">Контакты</a>
+                            </li>
+                            <li class="menu-footer__item">
+                                <a href="#" class="menu-footer__link">Калькулятор</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <!-- Footer. Bottom -->
+                <div class="footer__bottom bottom-footer">
+                    <div class="bottom-footer__row">
+                        <a href="#" class="bottom-footer__politic">Политика конфиденциальности</a>
+                        <p class="bottom-footer__development">Разработка и продвижение - ozhgibesov.agency</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+
+        <!-- Popup. Search -->
+        <div id="search-popup" class="popup-search _popup">
+            <div class="popup-search__body _popup-body">
+                <button class="popup-search__icon _popup-close">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path class="close-icon" d="M5.63599 18.364L18.3639 5.63609" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path class="close-icon" d="M5.63623 5.63599L18.3642 18.3639" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+                <div class="popup-search__content _popup-content">
+                    <form method="get" action="#" class="popup-search__form form-search">
+                        <button type="submit" title="кнопка поиска" class="form-search__button">
+                            <img src="img/svg-icons/search.svg" alt="иконка поиска">
+                        </button>
+                        <div class="form-search__input">
+                            <input autocomplete="off" type="text" name="form-search" placeholder="Поиск по сайту" class="_input">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- Popup. Cities-Search -->
+        <div id="search-cities-popup" class="popup-search-cities _popup">
+            <div class="popup-search-cities__body _popup-body">
+                <div class="popup-search-cities__content _popup-content">
+                    <button class="popup-search-cities__icon _popup-close">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path class="close-icon" d="M5.63599 18.364L18.3639 5.63609" stroke="#828892" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path class="close-icon" d="M5.63623 5.63599L18.3642 18.3639" stroke="#828892" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                    <div class="popup-search-cities__title">
+                        <h3>Ваш город:
+                            <span>Москва</span>
+                        </h3>
+                    </div>
+                    <form method="get" action="#" class="popup-search-cities__form form-search-cities">
+                        <div class="form-search-cities__input">
+                            <input autocomplete="off" type="text" name="form-search" placeholder="Введите название вашего города" class="_input">
+                        </div>
+                        <div class="form-search-cities__results results-search">
+                            <ul class="results-search__list">
+                                <li class="results-search__item">
+                                    <span class="_popup-close">Апрелевка</span>
+                                </li>
+                                <li class="results-search__item">
+                                    <span class="_popup-close">Балашиха</span>
+                                </li>
+                                <li class="results-search__item">
+                                    <span class="_popup-close">Бронницы</span>
+                                </li>
+                                <li class="results-search__item">
+                                    <span class="_popup-close">Видное</span>
+                                </li>
+                                <li class="results-search__item">
+                                    <span class="_popup-close">Волоколамск</span>
+                                </li>
+                                <li class="results-search__item">
+                                    <span class="_popup-close">Воскресенск</span>
+                                </li>
+                                <li class="results-search__item">
+                                    <span class="_popup-close">Дубна</span>
+                                </li>
+                                <li class="results-search__item">
+                                    <span class="_popup-close">Егорьевск</span>
+                                </li>
+                                <li class="results-search__item">
+                                    <span class="_popup-close">Железнодорожный</span>
+                                </li>
+                                <li class="results-search__item">
+                                    <span class="_popup-close">Жуковский</span>
+                                </li>
+                                <li class="results-search__item">
+                                    <span class="_popup-close">Зарайск</span>
+                                </li>
+                                <li class="results-search__item">
+                                    <span class="_popup-close">Зеленоград</span>
+                                </li>
+                                <li class="results-search__item">
+                                    <span class="_popup-close">Королев</span>
+                                </li>
+                                <li class="results-search__item">
+                                    <span class="_popup-close">Котельники</span>
+                                </li>
+                                <li class="results-search__item">
+                                    <span class="_popup-close">Красногорск</span>
+                                </li>
+                                <li class="results-search__item">
+                                    <span class="_popup-close">Краснознаменск</span>
+                                </li>
+                                <li class="results-search__item">
+                                    <span class="_popup-close">Лобня</span>
+                                </li>
+                                <li class="results-search__item">
+                                    <span class="_popup-close">Луховицы</span>
+                                </li>
+                                <li class="results-search__item">
+                                    <span class="_popup-close">Ногинск</span>
+                                </li>
+                                <li class="results-search__item">
+                                    <span class="_popup-close">Одинцово</span>
+                                </li>
+                                <li class="results-search__item">
+                                    <span class="_popup-close">Озеры</span>
+                                </li>
+                                <li class="results-search__item">
+                                    <span class="_popup-close">Орехово Зуево</span>
+                                </li>
+                                <li class="results-search__item">
+                                    <span class="_popup-close">Павловский посад</span>
+                                </li>
+                                <li class="results-search__item">
+                                    <span class="_popup-close">Подольск</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- Popup. Thanks -->
+        <div id="thanks-popup" class="popup-thanks _popup">
+            <div class="popup-thanks__body _popup-body">
+                <div class="popup-thanks__content _popup-content">
+                    <button class="popup-thanks__icon _popup-close">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path class="close-icon" d="M5.63599 18.364L18.3639 5.63609" stroke="#828892" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path class="close-icon" d="M5.63623 5.63599L18.3642 18.3639" stroke="#828892" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                    <div class="popup-thanks__success">
+                        <svg width="61" height="60" viewBox="0 0 61 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="0.5" width="60" height="60" rx="30" fill="#26AF61"/>
+                            <path class="check-icon" fill-rule="evenodd" clip-rule="evenodd" d="M17.9494 30.7829C18.4376 30.2947 19.229 30.2947 19.7172 30.7829L25.5 36.5656L41.2828 20.7829C41.7709 20.2947 42.5624 20.2947 43.0505 20.7829C43.5387 21.271 43.5387 22.0625 43.0505 22.5506L26.3839 39.2173C25.8957 39.7055 25.1043 39.7055 24.6161 39.2173L17.9494 32.5506C17.4613 32.0625 17.4613 31.271 17.9494 30.7829Z" fill="white"/>
+                        </svg>
+                    </div>
+                    <div class="popup-thanks__title">Спасибо за заявку</div>
+                    <p class="popup-thanks__text">Мы свяжемся с вами в течение рабочего дня</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/script.min.js"></script>
+
+
+</body>
+</html>
