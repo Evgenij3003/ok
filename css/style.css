@@ -5608,7 +5608,6 @@ body._lock {
 }
 
 @media (max-width: 78.5em) {
-
     ._page-about .profits,
     ._page-guarantee .profits {
         padding: 2.5rem 0 0 0;
@@ -5616,7 +5615,6 @@ body._lock {
 }
 
 @media (max-width: 61.99875em) {
-
     ._page-about .profits,
     ._page-guarantee .profits {
         padding: 0;
@@ -5723,6 +5721,39 @@ body._lock {
 @media (max-width: 47.99875em) {
     .item-profits__text {
         text-align: center;
+    }
+}
+
+._page-about .profits__body {
+    padding: 4.1875rem 0 5rem;
+}
+@media (max-width: 47.99875em) {
+    ._page-about .profits__body {
+        padding: 0;
+    }
+}
+
+._page-about .profits__button {
+    margin: 3.125rem 0 0 0;
+}
+
+@media (max-width: 47.99875em) {
+    ._page-about .profits__button {
+        display: flex;
+        justify-content: center;
+        margin: 1.875rem 0 0 0;
+    }
+}
+
+._page-about .profits__button ._button {
+      min-height: 3.5625rem;
+      font-size: 1rem;
+}
+
+@media (max-width: 29.99875em) {
+    ._page-about .profits__button ._button {
+        font-size: 0.9375rem;
+        min-height: 3.5rem;
     }
 }
 
